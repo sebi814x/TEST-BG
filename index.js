@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["🎧 Słucha: Roblox", "🎮 Gra w: Polskie RP"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'online', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
